@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="row top-bar">
+        <div class="item2 ite">RERA Approved</div>
+        <div class="item2 right mob">Mob.No. 7004525294,9771999460</div>
+    </div>
+
+    <div class="row ">
+        <div class="item2 ite">
+            <img class="logo" src="image/logo (1).jpg" alt="">
+        </div>
+        <div class="item2 right mob">
+            <a class="menu-bar" onclick="togglemenu()"><i class="fa-solid fa-bars-staggered"></i></a>
+            <ul id="menu_ba">
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About us</a>
+                </li>
+                <li>
+                    <a href="#">Features</a>
+                </li>
+                <li>
+                    <a href="#service"">Services</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+            </ul>
+            <script>
+                function togglemenu() {
+                    var right = document.getElementById('menu_ba');
+                    if (right.style.display === "none") {
+                        right.style.display = "block";
+                    } else {
+                        right.style.display = "none";
+                    }
+                }
+            </script>
+        </div>
+    </div>
+
+    <div class="row" id="banner">
+
+    </div>
+
+    <h1 id="about">About us</h1>
+
+    <div class="row">
+        <div class="item2">
+            <h2><span>About</span> Our Company</h2>
+            <p>Recognized for his outstanding performance, Pankaj Sood has been honored with numerous national and
+                international awards. These accolades acknowledge his remarkable achievements and position him as a
+                leading professional in the real estate and property dealing sector in India. His dedication to
+                excellence and commitment to delivering top-notch service have earned him the reputation of being the
+                best in the industry.</p>
+            <p>Beyond his professional endeavors, Pankaj Sood is known for his philanthropic contributions and
+                commitment to social causes. He actively engages in initiatives that uplift the underprivileged and
+                promote education and healthcare in marginalized communities. His philanthropic efforts reflect his
+                compassionate nature and his belief in giving back to society. Through Land Twisters, Pankaj aims to
+                create a positive impact by facilitating transparent and fair property transactions while also
+                supporting charitable initiatives that make a difference in people's lives.</p>
+        </div>
+        <div class="item2">
+            <img class="img-about" src="image/about-page-banner.jpg" alt="">
+        </div>
+    </div>
+
+    <h1 id="service">Our Services</h1>
+
+    <div class="row">
+        <div class="item3 service">
+            <h3>Construction Invoice</h3>
+            <p>Designed with separate materials and labor sections. They also include ‘site location’ instead of
+                shipping details/address/costs.</p>
+        </div>
+        <div class="item3 service">
+            <h3>Freelance Invoice Templates</h3>
+            <p>Includes a couple of free invoice templates that are tailored towards freelance projects with itemized
+                billing and time tracking.</p>
+        </div>
+        <div class="item3 service">
+            <h3>Printable Invoice Template</h3>
+            <p>Includes a couple of free invoice templates that are tailored towards freelance projects with itemized
+                billing and time tracking.</p>
+        </div>
+        <div class="item3 service">
+            <h3>Graphic Design Invoice</h3>
+            <p>This black and white template is designed to be printer-friendly to give you an easy, reliable invoice
+                for your small business.</p>
+        </div>
+        <div class="item3 service">
+            <h3>Photography Invoice</h3>
+            <p>Working as a freelance graphic designer? Then these templates are for you! Choose between invoices built
+                for fixed-rate or hourly-rate projects.</p>
+        </div>
+        <div class="item3 service">
+            <h3>Contractor Invoice Template</h3>
+            <p>This page includes a few tips on writing a comprehensive invoice for photography jobs, along with several
+                relevant templates.</p>
+        </div>
+    </div>
+    <h1 id="Contact">Contact us</h1>
+    <div class="row">
+        <div class="item2 form">
+            <form action="">
+                <label for="">Enter Name</label>
+                <input type="text" placeholder="Pradeep kumar" class="input">
+                <label for="">Enter E-mail</label>
+                <input type="email" placeholder="abd@gmail.com" class="input">
+                <label for="">Enter Mobile No.</label>
+                <input type="number" placeholder="(+91) 6205646243" class="input">
+                <label for="">Enter Message</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="About" class="input"></textarea>
+                <button class="btn">Contact</button>
+            </form>
+        </div>
+        <div class="item2">
+            <img class="img-contact" src="image/about-page-banner.jpg" alt="">
+        </div>
+    </div>
+
+
+    <div class="row footer">
+        <div class="item">
+            <img class="logo" src="image/logo (1).jpg" alt="">
+        </div>
+
+        <div class="item3">
+            <h6>Address</h6>
+            <p>Opposite Ansal Golf Link 2, Sector-115, Landra Kharar, Sas Nagar, Chandigarh - 160055</p>
+            <h6>Contact No.</h6>
+            <p><a href="tel:9115569633">+(91) 9115569633</a></p>
+            <h6>Need Live Support?</h6>
+            <p><a href="mailto:info@landtwisters.com">info@landtwisters.com</a></p>
+        </div>
+        <div class="item3">
+            <h6>Quick Links</h6>
+            <ul>
+                <li><a href=""><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i> List item 1</a></li>
+                <li><a href=""><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i> List item 2</a></li>
+                <li><a href=""><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i> List item 3</a></li>
+                <li><a href=""><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i> List item 4</a></li>
+            </ul>
+        </div>
+        <div class="item3 last">
+            <h6>Useful Links</h6>
+            <ul>
+                <li><a href=""><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i> List item 1</a></li>
+                <li><a href=""><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i> List item 2</a></li>
+                <li><a href=""><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i> List item 3</a></li>
+                <li><a href=""><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i> List item 4</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

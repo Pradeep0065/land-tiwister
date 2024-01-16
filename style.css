@@ -209,7 +209,7 @@ h6{
     font-size: 30px;
 }
 .service {
-    width: 100%;
+    width: 100% !important;
 }
 .form{
     margin-bottom: 10px;
@@ -220,4 +220,5 @@ h6{
 .item3{
     width: 50%;
 }
+  
 }

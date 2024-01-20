@@ -174,9 +174,16 @@ h6{
    .right ul {
         position: absolute;
         right: 0;
-        top: 0px;
-        padding: 20px;
+        top: 140px;
+        padding: 30px;
         background-color: whitesmoke;
+    }
+    .right ul li{
+        display: block;
+        position: relative;
+        top: 10px;
+        right: 10px;
+        padding: 20px;
     }
     #banner{
         height: 400px;
@@ -194,6 +201,7 @@ h6{
     .mob {
         width: 70%;
        text-align: right;
+       font-size: 8px;
     }
 .ite{
     width: 30%;
@@ -205,9 +213,15 @@ h6{
     width: 100%;
 }
 .menu-bar {
-    top: 120px;
+    top: 130px;
     font-size: 30px;
 }
+.right ul {
+
+    top: 170px;
+
+}
+
 .service {
     width: 100% !important;
 }
@@ -220,5 +234,4 @@ h6{
 .item3{
     width: 50%;
 }
-  
 }
